@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/me-4.png'
 import HeaderSocials from "./HeaderSocials"
 import { Player } from '@lottiefiles/react-lottie-player';
 
