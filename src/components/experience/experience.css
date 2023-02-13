@@ -1,0 +1,132 @@
+.experience__container {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.experience__under1 {
+    display: flex;
+}
+
+.experience__under1 article{
+    padding-right: 1rem;
+}
+
+.experience__lottie {
+    width: 450px;
+    height: 450px;
+}
+
+.experience__under1 h4 {
+    font-size: 1rem;
+}
+
+.experience__container h4,h5 {
+    text-shadow: none;
+    animation: none;
+    font-size: 1.2rem;
+}
+
+.experience__frontend {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+}
+
+.experience__backend {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+}
+
+.experience__container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.experience__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.experience__content {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.experience__details {
+    display: flex;
+    gap: 1rem;
+    align-items: baseline;
+}
+
+.experience__details-icon {
+    margin-top: 6px;
+    color: white;
+}
+
+.experience__animation {
+    background: transparent;
+}
+ 
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+
+@media screen and (max-width: 1024px) {
+    .experience__container {
+        grid-template-columns: 1fr;
+    }
+
+    .experience__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .experience__content {
+        padding: 1rem;
+    }
+
+    .experience__under1 {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .experience__under1 {
+        flex-direction: column;
+    }
+
+    .experience__lottie {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+
+@media screen and (max-width:600px) {
+    .experience__container {
+        gap: 1rem;
+    }
+
+    .experience__container > div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .experience__under1 {
+        flex-direction: column;
+    }
+
+    .experience__lottie {
+        width: 220px;
+        height: 220px;
+    }
+}
