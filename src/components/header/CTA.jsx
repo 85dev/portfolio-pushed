@@ -3,7 +3,7 @@ import CV from "../../assets/CV.pdf"
 import { AiOutlineLike } from "react-icons/ai"
 
 const CTA = () => {
-    const [counter, setCounter] = useState(0);
+    const [counter, setCounter] = useState(357);
 
     const likeCounter = () => {
         setCounter(counter + 1);

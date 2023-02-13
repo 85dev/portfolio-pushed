@@ -1,6 +1,7 @@
 header {
     padding-top: 3rem;
     overflow: hidden;
+    width: 80%;
 }
 
 .header__container {

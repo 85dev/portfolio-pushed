@@ -44,7 +44,6 @@ body {
 /* GENERAL */
 
 .container {
-    width: var(--container-width-lg);
     margin: 0 auto;
 }
 
@@ -141,7 +140,11 @@ img {
 
     @media screen and (max-width:600px) {
         header {
-            height: 100vh;
+            height: 130vh;
+        }
+
+        a.btn.btn-primary {
+            margin: 1rem;
         }
 
         .header__socials, .scroll__down {

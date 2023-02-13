@@ -41,6 +41,16 @@ a.footer__logo {
     justify-content: center;
     gap: 2rem;
     margin: 0 auto 3rem;
+    list-style-type: none;
+}
+
+.permalinks a {
+    display: flex;
+    align-items: center;
+}
+
+.permalinks a svg {
+    margin-left: 0.5rem;
 }
 
 .footer__socials {

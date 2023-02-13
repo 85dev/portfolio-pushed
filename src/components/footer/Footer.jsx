@@ -2,7 +2,13 @@ import React from "react";
 import './footer.css';
 import {AiFillLinkedin} from 'react-icons/ai'
 import { FaGithub } from "react-icons/fa"
-import { Player } from '@lottiefiles/react-lottie-player';
+import { AiOutlineHome } from "react-icons/ai"
+import { Player } from '@lottiefiles/react-lottie-player'
+import { MdOutlineTopic } from 'react-icons/md'
+import { RiGitRepositoryLine } from 'react-icons/ri'
+import { AiOutlineBook } from 'react-icons/ai'
+import { AiOutlineFolderOpen } from 'react-icons/ai'
+import { AiOutlineContacts } from 'react-icons/ai'
 
 const Footer = () => {
     return (
@@ -12,14 +18,14 @@ const Footer = () => {
                 </Player>
             </div>
             
-            <ul className="permalinks">
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#">Know-How</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <div className="permalinks">
+                <a href="#">Home <AiOutlineHome /></a>
+                <a href="#about"> About <MdOutlineTopic /></a>
+                <a href="#">Experience < RiGitRepositoryLine /></a>
+                <a href="#">Know-How < AiOutlineBook /></a>
+                <a href="#">Portfolio < AiOutlineFolderOpen/> </a>
+                <a href="#">Contact < AiOutlineContacts/></a>
+            </div>
 
             <div className="footer__socials">
                 <a href="https://www.linkedin.com/in/nicolas-mercier-18b6a214a/"><AiFillLinkedin /></a>

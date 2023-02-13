@@ -18,6 +18,10 @@ const About = () => {
                     </div>
                 </div>
 
+                <div className="about__me__responsive">
+                        <img src={ME} alt="About Image" className="about__me__responsive__image"/>
+                </div>
+
                 <div className="about__content">
                     <div className="about__cards">
 

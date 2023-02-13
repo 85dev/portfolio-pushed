@@ -3,6 +3,7 @@
     grid-template-columns: 35% 50%;
     gap: 15%;
     align-items: center;
+    width: var(--container-width-lg);
 }
 
 .about__me {
@@ -19,6 +20,10 @@ img.about__me {
     overflow: hidden;
     transform: rotate(10deg);
     transition: 0.3s;
+}
+
+.about__me__responsive {
+    display: none;
 }
 
 
@@ -86,6 +91,10 @@ img.about__me:hover {
 /* MEDIA QUERIES (SMALL DEVICES) */
 
 @media screen and (max-width:600px) {
+    .about__container {
+        width: 90%;
+    }
+
     .about__me {
         width: 100%;
         margin: 0 auto 3rem;
