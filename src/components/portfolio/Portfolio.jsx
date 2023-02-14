@@ -10,21 +10,21 @@ const data = [
     {
         id: 1,
         image: IMG1,
-        title: "Origami App - Application mobile : NestJS, Typescript, Firebase, Flutter & Dart",
+        title: "Origami App - Application mobile & Landing Page : Ruby On Rails, NestJS, Typescript, Firebase, Flutter & Dart",
         github: 'https://github.com/85dev/landingOrigami',
         demo: 'https://nameless-fortress-01398.herokuapp.com/'
     },
     {
         id: 2,
         image: IMG2,
-        title: 'Proquinter - Application web avec back-office : Ruby On Rails, SQL, Html, Css & Vanilla JS',
+        title: 'Proquinter - Application web avec back-office et login administrateur : Ruby On Rails, SQL, Html, Css & Vanilla JS',
         github: 'https://github.com/85dev/proquinter_web_app',
         demo: 'https://proquinter.com'
     },
     {
         id: 3,
         image: IMG3,
-        title: 'Intégration landing page - Desktop Only : Vanilla JS, Html & CSS',
+        title: "Pilot'in - Intégration landing page desktop Only : Vanilla JS, Html & CSS",
         github: 'https://github.com/85dev',
         demo: 'https://integration-test-dev.000webhostapp.com/'
     }

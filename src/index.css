@@ -130,11 +130,6 @@ img {
 
 /* MEDIA QUERIES (BIG DEVICES) */
 
-@media screen and (max-width: 1024px) {
-    header {
-        height: 68vh;
-    }
-}
 
 /* MEDIA QUERIES (SMALL DEVICES) */
 

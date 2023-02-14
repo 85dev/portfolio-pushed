@@ -78,6 +78,7 @@ h4 {
     transform: rotate(90deg);
     font-weight: 200;
     font-size: 0.9rem;
+    padding-left: 1rem;
 }
 
 /* RESPONSIVE */
