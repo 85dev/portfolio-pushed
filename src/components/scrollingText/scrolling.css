@@ -1,0 +1,26 @@
+.span__scroller {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    margin-top: 3rem;
+    transform: translate(-100px);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translate(-200px, 0)
+    }
+
+    100% {
+        transform: translate(200px, 0)
+    }
+}
+
+.fingers {
+    width: 6rem;
+}
+
+.span__scroller span {
+    font-size: 5rem;
+}

@@ -4,6 +4,14 @@ header {
     width: 80%;
 }
 
+.svg__background {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    width: auto;
+    left: 0;
+}
+
 .header__container {
     margin-top: -3rem;
     text-align: center;
