@@ -1,0 +1,26 @@
+.gallery {
+    position: absolute;
+    z-index: -1;
+    height: 200vh;
+    width: 90vw;
+}
+
+.tile {
+    animation: balance 3s infinite;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0,2);
+}
+
+@keyframes balance {
+    0% {
+        transform: translate(20px, 0px);
+    }
+    33% {
+        transform: translate(-20px, 20px);
+    }
+    66% {
+        transform: translate(0px, 20px);
+    }
+    100% {
+        transform: translate(20px, 0px);
+    }
+}

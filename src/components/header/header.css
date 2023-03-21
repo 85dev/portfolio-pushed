@@ -4,6 +4,11 @@ header {
     width: 80%;
 }
 
+.parent {
+    position: relative;
+    z-index: 3;
+}
+
 .svg__background {
     position: absolute;
     z-index: -1;
@@ -153,3 +158,30 @@ h4 {
         transform: translate(3px, -3px);
     }
 }
+
+.gallery {
+    position: absolute;
+    z-index: 4;
+    height: 200vh;
+    width: 90vw;
+}
+
+/* .tile {
+    animation: balance 3s infinite;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0,2);
+}
+
+@keyframes balance {
+    0% {
+        transform: translate(20px, 0px);
+    }
+    33% {
+        transform: translate(-20px, 20px);
+    }
+    66% {
+        transform: translate(0px, 20px);
+    }
+    100% {
+        transform: translate(20px, 0px);
+    }
+} */
